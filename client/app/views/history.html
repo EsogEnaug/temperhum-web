@@ -1,0 +1,11 @@
+<h1> История изменения {{ wtype }}</h1>
+<select ng-model="wtype" ng-change="onTypeChange()" >
+  <option value="temperature">Температура</option>
+  <option value="humidity">Влажность</option>
+</select>
+<div style="width: 70%">
+<canvas id="line" class="chart chart-base" chart-type="type" chart-data="data" chart-options="options"
+    chart-labels="labels" chart-legend="true" chart-series="series"
+    chart-click="onClick" >
+    </canvas>
+</div>

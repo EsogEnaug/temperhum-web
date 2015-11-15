@@ -1,0 +1,8 @@
+pip3 install django
+pip3 install django-tastipie
+#pip3 install --allow-all-external mysql-connector-python
+apt-get install libmysqlclient-dev
+pip3 install mysqlclient
+pip3 install django-cors-headers
+
+
